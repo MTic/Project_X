@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MTic.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Merriweather|Abril+Fatface' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        .auto-style1 {
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+ 
+        <div class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right temp1">
+                        <li><a runat="server" href="#"><b>Регистрација</b></a></li>
+                        <li><a runat="server" href="#"><b>Најава</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div class="container">
+                <asp:Image ID="Image1" src="Images/slika.jpg" width="130px" height="115px" runat="server" />
+                <strong class="auto-style1">Movie Ticket</strong>
+            </div>
+        </div>
+
+      
+        <div id="second-menu" class="container">
+            <div class="navbar navbar-inverse">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-left temp">
+                        <li><a runat="server" href="#"><b>Брза резервација</b></a></li>
+                        <li><a runat="server" href="#"><b>Кина</b></a></li>
+                        <li><a runat="server" href="#"><b>Филмови</b></a></li>
+                        <li><a runat="server" href="#"><b>Локација</b></a></li>
+                        <li><a runat="server" href="#"><b>Помош</b></a></li>
+                        <li><a runat="server" href="#"><b>. . . . </b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+                  
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            <p> &nbsp;</p>
+        </asp:ContentPlaceHolder>
+
+        <footer>
+            <div class="container">
+                &copy MTic
+            </div>
+        </footer>
+
+    </form>
+</body>
+</html>

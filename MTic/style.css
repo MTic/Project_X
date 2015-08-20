@@ -1,0 +1,46 @@
+﻿body {
+    background-color: #eeeeee;
+}
+.navbar {
+    border-radius: 0px; 
+    margin: 0px;
+}
+.jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom:10px;
+}
+.jumbotron .containter {
+    float:left;
+}
+
+.jumbotron strong {
+    font-family: 'Special Elite', cursive;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 55pt;
+    color: #f01723;
+    margin-left: 200px;
+    vertical-align: middle;
+}
+#second-menu {
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:15px;
+}
+.temp li {
+    padding-left:70px;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+}
+.temp1 li {
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+}
+#Image1 {
+    margin-left: 70px;
+}
+footer {
+    border-top: 1px dotted black;
+    margin-top:5px;
+    padding-top:20px;
+}
